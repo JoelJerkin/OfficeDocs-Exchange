@@ -117,14 +117,15 @@ We strongly recommend that you use the latest version of .NET Framework that's s
 > [!IMPORTANT]
 > **Releases of .NET Framework that aren't listed in the table below are not supported on any release of Exchange 2016**. This includes minor and patch-level releases of .NET Framework.
 
-|**Exchange version**|**.NET Framework 4.7.1**|**.NET Framework 4.6.2**|**.NET Framework 4.6.1**|**.NET Framework 4.5.2**|
-|:-----|:-----|:-----|:-----|:-----|
-|Exchange 2016 CU8  <br/> |X  <br/> |X  <br/> |||
-|Exchange 2016 CU5 - CU7  <br/> ||X  <br/> |||
-|Exchange 2016 CU4  <br/> ||X  <br/> |X<sup>3</sup> <br/> |X<sup>3</sup> <br/> |
-|Exchange 2016 CU3  <br/> ||X  <br/> |X  <br/> |X<br/> |
-|Exchange 2016 CU2<br/> |||X<sup>1,2</sup> <br/> |X<br/> |
-|Exchange 2016 RTM or CU1<br/> ||||X<br/> |
+|**Exchange version**|**.NET Framework 4.7.2**|**.NET Framework 4.7.1**|**.NET Framework 4.6.2**|**.NET Framework 4.6.1**|**.NET Framework 4.5.2**|
+|:-----|:-----|:-----|:-----|:-----|:-----|
+|Exchange 2016 CU10 <br/> ||X  <br/> ||||
+|Exchange 2016 CU8 - CU9 <br/> ||X  <br/> |X  <br/> |||
+|Exchange 2016 CU5 - CU7  <br/> |||X  <br/> |||
+|Exchange 2016 CU4  <br/> |||X  <br/> |X<sup>3</sup> <br/> |X<sup>3</sup> <br/> |
+|Exchange 2016 CU3  <br/> |||X  <br/> |X  <br/> |X<br/> |
+|Exchange 2016 CU2<br/> ||||X<sup>1,2</sup> <br/> |X<br/> |
+|Exchange 2016 RTM or CU1<br/> |||||X<br/> |
  
 <sup>1</sup>.NET Framework 4.6.1 requires post-release fixes if you want to install it on a server running Exchange 2016 CU2. For more information. see [Exchange 2016 prerequisites](prerequisites.md).
 
